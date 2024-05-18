@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:fire_immunity",
+    "origins:nether_spawn",
+    "origins:burning_wrath",
+    "origins:hotblooded",
+    "origins:water_vulnerability",
+    "origins:flame_particles"
+  ],
+  "icon": {
+    "item": "minecraft:blaze_powder"
+  },
+  "order": 1,
+  "impact": 3,
+  "name": "Blazeborn",
+  "description": "Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether"
+}

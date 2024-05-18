@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "origins:nether_spawn",
+    "origins:piglin_brothers",
+    "origins:nether_gear",
+    "origins:more_axe_damage",
+    "origins:carnivore",
+    "origins:atrophy",
+    "origins:nether_hide",
+    "origins:dash"
+  ],
+  "icon": {
+    "item": "minecraft:piglin_head"
+  },
+  "name": "Piglin",
+  "description": "Born in the nether and trained by the ancient ancestors of the pigs, you love shiny things and are extremely skilled with a crossbow",
+  "order": 0,
+  "impact": 2
+}

@@ -1,0 +1,9 @@
+[package]
+name = "origin_docs_gen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glob = "0.3.1"
+serde_json = "1.0.117"
+serde = { version = "1.0.201", features = ["derive"] }

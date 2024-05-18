@@ -1,0 +1,31 @@
+{
+  "type": "origins:action_when_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:delay",
+        "action": {
+          "type": "origins:explode",
+          "power": 3,
+          "damage_self": false,
+          "create_fire": false
+        },
+        "ticks": 10
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.creeper.primed"
+      },
+      {
+        "type": "origins:extinguish"
+      }
+    ]
+  },
+  "name": "Light the Fuse",
+  "description": "Upon catching fire, you explode.",
+  "hidden": true
+}
